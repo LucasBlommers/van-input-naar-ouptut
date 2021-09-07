@@ -30,7 +30,7 @@ introduction = """
     i'
     :
 """
-print(introduction + "\nWij verkopen 3 pizza margarita's: klein (7,49 p.st), middel (8,99 p.st) en groot (11,49 p.st).")
+print(introduction + "\nWij verkopen 3 pizza margarita's: klein (" + smallPizza + " p.st), middel (" + mediumPizza + " p.st) en groot (" + largePizza + " p.st).")
 
 #Bestelling opnemen
 print("Hoeveel kleine pizza's wilt u?")
