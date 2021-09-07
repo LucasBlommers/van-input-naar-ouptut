@@ -7,7 +7,30 @@ mediumPizza = 8.99
 largePizza = 11.49
 
 #Introductie
-print("Welkom bij pizzaria de Italiaan.\nWij verkopen 3 pizza margarita's: klein (7,49 p.st), middel (8,99 p.st) en groot (11,49 p.st).")
+introduction = """
+---- Pizzaria De Itialiaan ----
+                                     ._
+                                   ,(  `-.
+                                 ,': `.   `.
+                               ,` *   `-.   \\
+                             ,'  ` :+  = `.  `.
+                           ,~  (o):  .,   `.  `.
+                         ,'  ; :   ,(__) x;`.  ;
+                       ,'  :'  itz  ;  ; ; _,-'
+                     .'O ; = _' C ; ;'_,_ ;
+                   ,;  _;   ` : ;'_,-'   i'
+                 ,` `;(_)  0 ; ','       :
+               .';6     ; ' ,-'~
+             ,' Q  ,& ;',-.'
+           ,( :` ; _,-'~  ;
+         ,~.`c _','
+       .';^_,-' ~
+     ,'_;-''
+    ,,~
+    i'
+    :
+"""
+print(introduction + "\nWij verkopen 3 pizza margarita's: klein (7,49 p.st), middel (8,99 p.st) en groot (11,49 p.st).")
 
 #Bestelling opnemen
 print("Hoeveel kleine pizza's wilt u?")
